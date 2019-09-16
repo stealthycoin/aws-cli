@@ -7,10 +7,8 @@ import sys
 from setuptools import setup, find_packages
 
 
-here = os.path.abspath(os.path.dirname(__file__))
-
-
 def read(*parts):
+    here = os.path.abspath(os.path.dirname(__file__))
     return codecs.open(os.path.join(here, *parts), 'r').read()
 
 
